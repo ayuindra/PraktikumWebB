@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To Do List</title>
+    <link rel="stylesheet" type="text/css" href=index.css />
+  </head>
+
+  <body>
+    <h3>To Do List</h3>
+    <script type="text/javascript" src="ToDoList.js"></script>
+
+    <div class="tabel">
+        <form id="id_form">
+            <table>                 
+            <tr>
+                <td>Masukan Catatan Anda</td>
+            </tr>
+            <tr>
+                <td><input type="text" id="kata" placeholder="Masukan Catatan Anda" autocomplete="off"/></td>
+            </tr>
+            </table>
+            <input type="button" value="+" id="plus" onclick="Tambah('id_form','TabelData')" />
+            <input type="button" value="Reset" id="reset" onclick="ClearText()" />
+
+            <br>
+            <br>
+            <br>
+
+            <table id="TabelData" width="auto" border="1"></table>
+        </form>
+        <input type="button" name="centang" id="checkbox" value="Select All" onclick="SelectAll()">
+        <input type="button" name="centang" id="checkbox" value="UnSelect All" onclick="UnSelectAll()">
+        <input type="button" value="Hapus" id="hapus" onclick="Hapus('TabelData')" />
+    </div>
+</body>
+</html>

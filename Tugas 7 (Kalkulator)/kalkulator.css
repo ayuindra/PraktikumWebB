@@ -1,0 +1,80 @@
+* {
+	margin: 0;
+	padding: 0;
+  font-family: lucida grande;  
+}
+body{
+  background-color:darksalmon;
+}
+table{
+	border-collapse: collapse;
+}
+tbody{
+	color: #000;
+	
+}
+
+table td {
+  padding: 5px;
+  border: 2px solid #FFDAB9;
+}
+
+table tr {
+  font: normal 14px Tahoma, Geneva, sans-serif, black;
+  background: #FFF0F5;
+}
+
+table tr:nth-child(2n+0) {
+  background: #E6E6FA;
+  box-shadow: 0 1px 2px black, 0 0 100px rgba(0, 0, 0, 0.15) inset;
+}
+
+table td:hover, table td:nth-child(2n+0):hover {
+  background: #FFE4B5;
+  box-shadow: 0 1px 2px black, 0 0 100px rgba(0, 0, 0, 0.15) inset;
+}
+
+input[type=text]{
+    padding: 10px;
+    width: 350px;
+    border-style: solid;
+    text-align: right;
+    font-size: 13pt;
+}
+
+input[type=text]:disabled {
+    background-color: beige;
+}
+
+.btn{
+    background-color: #E6E6FA;
+    width: 80px;
+    height: 40px;
+    color: black;
+    padding: 10px;
+    margin: auto;
+    font-size: 13pt;
+    cursor: pointer;
+}
+
+.btn_operasi{
+    background-color: #E6E6FA;
+    width: 80px;
+    height: 40px;
+    color: black;
+    padding: 10px;
+    font-size: 13pt;
+    cursor: pointer;
+}
+
+.btn_hapus{
+    background-color: #E6E6FA;
+    width: 80px;
+    height: 40px;
+    color: black;
+    padding: 10px;
+    font-size: 13pt;
+    cursor: pointer;
+}
+
+

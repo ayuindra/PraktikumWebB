@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+.utama{
+    max-width: 1080px;
+    margin: 20px auto;
+    background-color: #CDDAE2;
+    padding: 15px;
+    overflow: hidden;
+}
+ 
+header{
+    background-color: #B0C9D2;
+    color: #DF744A;
+    padding: 20px;
+}
+ 
+header h2{
+    margin-bottom: 7px;
+    font-size: 35px;
+}
+ 
+.navigasi ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#FEDCD2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+ 
+.navigasi li {
+    float: right;
+}
+ 
+.navigasi li a {
+    display: block;
+    color: #DC8239;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+ 
+.navigasi li a:hover {
+    background-color: #534A3C;
+    transition-duration: 2s;
+}
+ 
+.banner{
+    margin-bottom: 15px;
+}
+ 
+.banner img{
+    display: block;
+    width: 100%;
+    height: 330px;
+}
+ 
+.kotak{
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+ 
+.kotak h3{
+    background-color: #87CEEB;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 13px;
+}
+ 
+.kotak img{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+ 
+.kotak p{
+    margin-bottom: 10px;
+}
+
+.kotak a{
+	text-decoration:none;
+}
+ 
+.menu-kiri{
+    width: 250px;
+    margin-right: 10px;
+    float: left;
+}
+
+.menu-populer ul{
+    list-style-type: none;
+}
+ 
+.menu-populer ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 13px;
+    border-bottom: 1px solid black;
+    margin-bottom: 12px;
+    color: black;
+}
+ 
+.menu-populer ul li a:hover{
+    color: darkorange;
+    border-bottom: 5px double chocolate;
+    transition-duration: 2s;
+}
+ 
+.menu-tengah{
+    width: 780px;
+    margin-right: 10px;
+    float: left;
+}
+ 
+.menu-tengah h3{
+    background: none;
+    color: #5E6E72;
+    margin-bottom: 0;
+}
+
+.kotak-tengah{
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+ 
+.kotak-tengah h3{
+    background-color: #87CEEB;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 13px;
+}
+ 
+.kotak-tengah img{
+    width: 300px;
+	height: 300px;
+    margin-bottom: 10px;
+}
+ 
+.kotak-tengah p{
+    margin-bottom: 10px;
+}
+
+.kotak-tengah a{
+	text-decoration:none;
+}
+ 
+.menu-kanan{
+    width: 250px;
+    float: left;
+}
+ 
+.menu-kanan, .menu-tengah{
+    margin-bottom: 15px;
+}
+ 
+footer{
+    clear: both;
+    background-color: #B0C9D2;
+    color: black;
+    padding: 15px;
+    text-align: center;
+}
+
+.page {
+    display: inline-block;
+    padding: 5px 9px;
+    margin-right: 4px;
+    border-radius: 3px;
+    border: solid 1px #c0c0c0;
+    background: #e9e9e9;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #717171;
+    text-transform: capitalize;
+}
+ 
+.page:hover{
+    background:#FAF7F7;
+}
+ 
+.active, .active:hover{
+    background: #757272;
+    border-color: #403C3C;
+    color: #e9e9e9;
+    cursor: default;
+}
+ 

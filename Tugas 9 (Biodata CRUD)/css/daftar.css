@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: lucida grande;  
+}
+
+body {
+	background-image: url(../gambar/beach.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.tabel {
+	background-color: #ffd2d2;
+}
+
+.heading {
+	height: 30px;
+	width: 44%;
+	font-weight: bold;
+	color: black;
+	background-color: #ffd2d2;
+	text-align: center;
+	margin: 5% 0% 0% 28%;
+	border: 1px solid #999;
+}
+.kotak-form {
+	width: 40%;
+	min-height: 400px;
+	padding: 2%;
+	border: 1px solid #999;
+	background-color: #ffd2d2;
+	margin: 0% 0% 0% 28%;
+}
+
+.kotak-form input[type=text],
+.kotak-form input[type=date] {
+	width: 90%;
+	height: 40px;
+	padding-left: 1%; 
+	font-size: 17px;
+	margin: 0% 0% 2% 0%;
+}
+
+.kotak-form textarea {
+	padding: 1%;
+	font-size: 17px;
+	margin: 0% 0% 2% 0%;
+	width: 90%;
+}
+
+.kotak-form input[type=radio] {
+	margin: 0% 0% 2% 0%;
+	cursor: pointer;	
+}
+
+.kotak-form input[type=submit] {
+	padding: 1% 3%;
+	display: inline-block;
+	background-color: fff4f4;
+	color: black;
+	cursor: pointer;
+	margin: 0% 0% 2% 0%;
+}
